@@ -1,0 +1,19 @@
+{
+  "name": "jsss",
+  "version": "0.0.0",
+  "description": "JavaScript-Based Style Sheets Preprocessor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/watilde/jsss.git"
+  },
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watilde/jsss/issues"
+  },
+  "homepage": "https://github.com/watilde/jsss"
+}
