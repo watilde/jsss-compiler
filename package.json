@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/watilde/jsss",
   "dependencies": {
-    "css": "^1.6.0",
+    "css": "^2.0.0",
     "harmony-reflect": "^1.0.0",
     "underscore": "^1.6.0"
   }
