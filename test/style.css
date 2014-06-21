@@ -4,7 +4,7 @@ H1 {
 }
 
 H2 {
-  color: 15px;
+  color: blue;
   font-size: 10px;
 }
 
@@ -14,6 +14,16 @@ H2 {
 }
 
 #bar {
-  color: 15px;
+  color: blue;
+  font-size: 10px;
+}
+
+.foo {
+  color: red;
+  font-size: 15px;
+}
+
+.bar H1 {
+  color: blue;
   font-size: 10px;
 }
