@@ -7,3 +7,13 @@ H2 {
   color: 15px;
   font-size: 10px;
 }
+
+#foo {
+  color: red;
+  font-size: 15px;
+}
+
+#bar {
+  color: 15px;
+  font-size: 10px;
+}

@@ -2,4 +2,10 @@ tags.H1.color = "red";
 tags.H1.fontSize = "15px";
 tags.H2.color = "15px";
 tags.H2.fontSize = "10px";
+
+ids.foo.color = "red";
+ids.foo.fontSize = "15px";
+ids.bar.color = "15px";
+ids.bar.fontSize = "10px";
+
 classes.punk.all.color = "#00FF00";
