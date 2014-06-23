@@ -7,7 +7,7 @@
     "jsss": "bin/jsss.js"
   },
   "scripts": {
-    "test": "bin/jsss.js test/style.jsss test/style.css"
+    "test": "node --harmony ./test/test.js"
   },
   "repository": {
     "type": "git",
