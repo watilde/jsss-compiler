@@ -1,0 +1,29 @@
+H1 {
+  color: red;
+  font-size: 15px;
+}
+
+H2 {
+  color: blue;
+  font-size: 10px;
+}
+
+#foo {
+  color: red;
+  font-size: 15px;
+}
+
+#bar {
+  color: blue;
+  font-size: 10px;
+}
+
+.foo {
+  color: red;
+  font-size: 15px;
+}
+
+.bar H1 {
+  color: blue;
+  font-size: 10px;
+}

@@ -15,5 +15,6 @@ var fixture = fs.readFileSync(path.fixture, opt);
 var css = jsss.parse(code);
 
 if (css !== fixture) {
+  fs.writeFileSync(__dirname + '/out.css', css);
   throw Error(';(');
 }
