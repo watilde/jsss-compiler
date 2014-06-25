@@ -1,8 +1,8 @@
 {
-  "name": "jsss",
+  "name": "jsss-compiler",
   "version": "0.0.1",
   "description": "JavaScript-Based Style Sheets Preprocessor",
-  "main": "index.js",
+  "main": "lib/jsss.js",
   "bin": {
     "jsss": "bin/jsss.js"
   },
@@ -23,5 +23,8 @@
     "css": "^2.0.0",
     "harmony-reflect": "^1.0.0",
     "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "diff": "^1.0.8"
   }
 }
