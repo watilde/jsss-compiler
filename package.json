@@ -11,20 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/watilde/jsss.git"
+    "url": "git://github.com/watilde/jsss-compiler.git"
   },
   "author": "Daijiro Wachi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/watilde/jsss/issues"
+    "url": "https://github.com/watilde/jsss-compiler/issues"
   },
-  "homepage": "https://github.com/watilde/jsss",
+  "homepage": "https://github.com/watilde/jsss-compiler",
   "dependencies": {
     "css": "^2.0.0",
     "harmony-reflect": "^1.0.0",
     "underscore": "^1.6.0"
-  },
-  "devDependencies": {
-    "diff": "^1.0.8"
   }
 }

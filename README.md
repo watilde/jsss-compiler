@@ -1,9 +1,24 @@
-# JSSS
+# JSSS-Compiler
 
-JavaScript-Based Style Sheets Preprocessor
+JavaScript-Based Style Sheets Preprocessor Compiler
 
 ##Original
 http://www.w3.org/Submission/1996/1/WD-jsss-960822
+
+## Install
+
+Using npm.
+
+```
+$ npm install -g jsss-compiler
+```
+
+Confirm.
+
+```
+$ jsss
+:D
+```
 
 ## Example
 ### style.jsss
