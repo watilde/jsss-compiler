@@ -1,6 +1,5 @@
 var fs = require('fs');
 var path = require('path');
-var diff = require('diff');
 var jsss = require('../lib/jsss');
 var opt = {
   encoding: 'utf8'
