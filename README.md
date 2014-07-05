@@ -44,7 +44,7 @@ contextual(tags.UL, tags.LI, {fontSize: "10px"});
 
 ### Compile
 ```
-$ jsss style.jsss style.css
+$ jsss style.js style.css
 ```
 
 ### style.css
