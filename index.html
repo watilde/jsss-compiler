@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>jsss-compiler by watilde</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>jsss-compiler</h1>
+        <p>JavaScript-Based Style Sheets Preprocessor</p>
+
+        <p class="view"><a href="https://github.com/watilde/jsss-compiler">View the Project on GitHub <small>watilde/jsss-compiler</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/watilde/jsss-compiler/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/watilde/jsss-compiler/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/watilde/jsss-compiler">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="jsss-compiler" class="anchor" href="#jsss-compiler"><span class="octicon octicon-link"></span></a>JSSS-Compiler</h1>
+
+<p>JavaScript-Based Style Sheets Preprocessor</p>
+
+<h2>
+<a name="original" class="anchor" href="#original"><span class="octicon octicon-link"></span></a>Original</h2>
+
+<p><a href="http://www.w3.org/Submission/1996/1/WD-jsss-960822">http://www.w3.org/Submission/1996/1/WD-jsss-960822</a></p>
+
+<h2>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<p>Using npm.</p>
+
+<pre><code>$ npm install -g jsss-compiler
+</code></pre>
+
+<p>Confirm.</p>
+
+<pre><code>$ jsss
+:D
+</code></pre>
+
+<h2>
+<a name="example" class="anchor" href="#example"><span class="octicon octicon-link"></span></a>Example</h2>
+
+<h3>
+<a name="stylejsss" class="anchor" href="#stylejsss"><span class="octicon octicon-link"></span></a>style.jsss</h3>
+
+<pre><code>tags.H1.color = "red";
+tags.H1.fontSize = "15px";
+tags.H2.color = "blue";
+tags.H2.fontSize = "10px";
+
+ids.foo.color = "red";
+ids.foo.fontSize = "15px";
+ids.bar.color = "blue";
+ids.bar.fontSize = "10px";
+
+classes.foo.all.color = "red";
+classes.foo.all.fontSize = "15px";
+classes.bar.H1.color = "blue";
+classes.bar.H1.fontSize = "10px";
+
+contextual(tags.UL, tags.LI, {color: "red"});
+contextual(tags.UL, tags.LI, {fontSize: "10px"});
+</code></pre>
+
+<h3>
+<a name="compile" class="anchor" href="#compile"><span class="octicon octicon-link"></span></a>Compile</h3>
+
+<pre><code>$ jsss style.js style.css
+</code></pre>
+
+<h3>
+<a name="stylecss" class="anchor" href="#stylecss"><span class="octicon octicon-link"></span></a>style.css</h3>
+
+<pre><code>H1 {
+  color: red;
+  font-size: 15px;
+}
+
+H2 {
+  color: blue;
+  font-size: 10px;
+}
+
+UL {
+  color: red;
+  font-size: 10px;
+}
+
+LI {
+  color: red;
+  font-size: 10px;
+}
+
+#foo {
+  color: red;
+  font-size: 15px;
+}
+
+#bar {
+  color: blue;
+  font-size: 10px;
+}
+
+.foo {
+  color: red;
+  font-size: 15px;
+}
+
+.bar H1 {
+  color: blue;
+  font-size: 10px;
+}
+</code></pre>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/watilde">watilde</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-35821550-3");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
