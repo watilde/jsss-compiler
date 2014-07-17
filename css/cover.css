@@ -174,3 +174,8 @@ pre.prettyprint {
   text-shadow: none;
   border: 0;
 }
+.command {
+  background-color: #000;
+  color: #0f0;
+  text-align: left;
+}
