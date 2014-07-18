@@ -164,7 +164,11 @@ body {
     text-align: left;
   }
   .inner {
+    padding: 0;
     padding-bottom: 20px;
+  }
+  .masthead-nav {
+    margin-top: 10px;
   }
   .masthead-brand {
     margin-left: 10px;
