@@ -61,13 +61,16 @@ body {
  * Header
  */
 .masthead-brand {
-  font-size: 24px;
+  font-family: 'Tangerine', cursive;
+  color: #f0f;
+  font-size: 48px;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
   position: relative;
 }
 .masthead-brand p {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #555;
   font-size: 12px;
 }
@@ -161,6 +164,12 @@ body {
   }
   .inner {
     padding-bottom: 20px;
+  }
+  .masthead-brand {
+    margin-left: 10px;
+  }
+  .masthead-brand p {
+    margin-left: -10px;
   }
 }
 .table-bordered>tbody>tr>td {
