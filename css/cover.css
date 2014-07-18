@@ -102,6 +102,7 @@ body {
 .masthead-nav > .active > a:focus {
   color: #333;
   border-bottom-color: #f0f;
+  border-bottom-style: solid;
 }
 
 @media (min-width: 992px) {
