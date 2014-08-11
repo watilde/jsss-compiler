@@ -32,6 +32,7 @@ body {
 body {
   color: #000;
   text-align: center;
+  border-top: 3px solid #000;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -118,7 +119,7 @@ body {
  * Cover
  */
 .cover {
-  padding: 0;
+  padding-top: 0;
 }
 .cover .btn-lg {
   padding: 10px 20px;
@@ -164,7 +165,11 @@ body {
     text-align: left;
   }
   .inner {
+    padding: 0;
     padding-bottom: 20px;
+  }
+  .masthead-nav {
+    margin-top: 10px;
   }
   .masthead-brand {
     margin-left: 10px;
