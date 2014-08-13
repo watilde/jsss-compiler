@@ -1,6 +1,6 @@
 {
   "name": "jsss-compiler",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JavaScript-Based Style Sheets Preprocessor",
   "main": "lib/jsss.js",
   "bin": {
