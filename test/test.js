@@ -24,6 +24,8 @@ if (css !== fixture) {
       process.exit(1);
     }
   );
+
+  return;
 }
 
 // All test passed
