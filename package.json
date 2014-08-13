@@ -1,6 +1,6 @@
 {
   "name": "jsss-compiler",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "JavaScript-Based Style Sheets Preprocessor",
   "main": "lib/jsss.js",
   "bin": {
@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/watilde/jsss-compiler",
   "dependencies": {
-    "css": "^2.0.0",
-    "harmony-reflect": "^1.0.0",
+    "css": "^2.1.0",
+    "harmony-reflect": "^1.0.1",
     "underscore": "^1.6.0"
   }
 }

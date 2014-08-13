@@ -37,3 +37,13 @@ LI {
   color: blue;
   font-size: 10px;
 }
+
+.baz:hover {
+  color: red;
+  font-size: 15px;
+}
+
+.baz::before {
+  color: blue;
+  font-size: 10px;
+}
