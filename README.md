@@ -21,8 +21,12 @@ $ npm install -g jsss-compiler
 Confirm.
 
 ```
-$ jsss
-:D
+$ jsss -h
+Usage:
+    jsss -h                    Show this message
+    jsss -v                    Show jsss-compiler version
+    jsss <file.js>             Compile file.js, out to stdout
+    jsss <file.js> <file.css>  Compile file.js, out to file.css
 ```
 
 ## Example
