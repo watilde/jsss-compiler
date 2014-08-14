@@ -30,7 +30,7 @@ body {
   background-color: #fff;
 }
 body {
-  color: #000;
+  color: rgb(51, 51, 51);
   text-align: center;
   border-top: 3px solid #000;
 }
@@ -70,7 +70,7 @@ body {
   text-align: center;
   position: relative;
 }
-.masthead-brand p {
+.masthead-copy {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #555;
   font-size: 12px;
