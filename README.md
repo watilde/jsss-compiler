@@ -23,10 +23,10 @@ Confirm.
 ```
 $ jsss -h
 Usage:
-    jsss -h                    Show this message
-    jsss -v                    Show jsss-compiler version
-    jsss <file.js>             Compile file.js, out to stdout
-    jsss <file.js> <file.css>  Compile file.js, out to file.css
+    jsss style.js           Compile JSSS to stdout
+    jsss style.js style.css Compile JSSS to file
+    jsss -h, --help         display this help message
+    jsss -v, --version      display the version number
 ```
 
 ## Example
