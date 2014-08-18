@@ -33,7 +33,7 @@ LI {
   font-size: 15px;
 }
 
-.bar H1 {
+H1.bar {
   color: blue;
   font-size: 10px;
 }
