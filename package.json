@@ -1,6 +1,6 @@
 {
   "name": "jsss-compiler",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "JavaScript-Based Style Sheets Preprocessor",
   "main": "lib/jsss.js",
   "bin": {
@@ -24,5 +24,8 @@
     "harmony-reflect": "^1.0.1",
     "underscore": "^1.6.0",
     "update-notifier": "^0.2.0"
+  },
+  "devDependencies": {
+    "jsss-contextual": "0.0.2"
   }
 }
