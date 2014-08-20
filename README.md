@@ -31,7 +31,7 @@ Usage:
 
 ## Example
 ### style.js
-```
+```js
 var contextual = require('jsss-contextual');
 var _ = require('underscore');
 
@@ -70,7 +70,7 @@ $ jsss style.js style.css
 ```
 
 ### style.css
-```
+```css
 H1 {
   color: red;
   font-size: 15px;
