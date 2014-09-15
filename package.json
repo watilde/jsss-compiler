@@ -21,8 +21,8 @@
   "homepage": "https://github.com/watilde/jsss-compiler",
   "dependencies": {
     "css": "^2.1.0",
-    "harmony-reflect": "^1.0.1",
-    "underscore": "^1.7.0",
+    "harmony-reflect": "1.0.1",
+    "underscore": "1.7.0",
     "update-notifier": "^0.2.1"
   },
   "devDependencies": {
