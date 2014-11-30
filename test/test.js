@@ -7,7 +7,8 @@ var opt = {
 };
 var path = {
   jsss: path.resolve(__dirname + '/style.js'),
-  fixture: path.resolve(__dirname + '/fixture.css')
+  fixture: path.resolve(__dirname + '/fixture.css'),
+  css: path.resolve(__dirname + '/style.css')
 };
 
 var code = fs.readFileSync(path.jsss, opt);
@@ -16,8 +17,8 @@ var css = jsss.parse(code);
 
 // Test failure
 if (css !== fixture) {
-  fs.writeFileSync(__dirname + '/style.css', css);
-  exec('diff ' + __dirname + '/fixture.css ' + __dirname + '/style.css',
+  fs.writeFileSync(path.css, css);
+  exec('diff ' + path.fixture + ' ' + path.css,
     function (err, stdout, stderr) {
       console.error('See: diff test/fixture.css test/style.css');
       process.stdout.write(stdout);
@@ -29,7 +30,7 @@ if (css !== fixture) {
 }
 
 // All test passed
-if (fs.existsSync(__dirname + '/style.css')) {
-  fs.unlinkSync(__dirname + '/style.css');
+if (fs.existsSync(path.css)) {
+  fs.unlinkSync(path.css);
 }
 process.exit(0);
