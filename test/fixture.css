@@ -3,11 +3,6 @@ H1 {
   font-size: 15px;
 }
 
-H2 {
-  color: blue;
-  font-size: 10px;
-}
-
 UL {
   color: red;
   font-size: 10px;
@@ -36,14 +31,4 @@ LI {
 H1.bar {
   color: blue;
   font-size: 10px;
-}
-
-.baz::before {
-  color: blue;
-  font-size: 10px;
-}
-
-.baz:hover {
-  color: red;
-  font-size: 15px;
 }

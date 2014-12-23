@@ -24,8 +24,5 @@
     "harmony-reflect": "1.0.1",
     "underscore": "1.7.0",
     "update-notifier": "^0.2.1"
-  },
-  "devDependencies": {
-    "jsss-contextual": "0.0.2"
   }
 }
