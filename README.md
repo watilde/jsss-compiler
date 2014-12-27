@@ -1,6 +1,6 @@
 # JSSS-Compiler
 
-JavaScript-Based Style Sheets Preprocessor
+A altCSS: JavaScript-Based Style Sheets Preprocessor
 
 ## Badgeds
 + [![NPM Version](http://img.shields.io/npm/v/jsss-compiler.svg)](https://www.npmjs.org/package/jsss-compiler)
