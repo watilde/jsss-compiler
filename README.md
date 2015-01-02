@@ -2,7 +2,7 @@
 
 A altCSS: JavaScript-Based Style Sheets Preprocessor
 
-## Badgeds
+## Badges
 + [![NPM Version](http://img.shields.io/npm/v/jsss-compiler.svg)](https://www.npmjs.org/package/jsss-compiler)
 + [![MIT LICENSE](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/watilde/jsss-compiler/blob/master/LICENSE)
 + [![Build Status](https://api.travis-ci.org/watilde/jsss-compiler.svg)](https://travis-ci.org/watilde/jsss-compiler)
