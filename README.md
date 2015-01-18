@@ -24,10 +24,14 @@ Confirm.
 ```
 $ jsss -h
 Usage:
-    jsss style.js           Compile JSSS to stdout
-    jsss style.js style.css Compile JSSS to file
-    jsss -h, --help         display this help message
-    jsss -v, --version      display the version number
+    jsss style.js                Compile JSSS to stdout
+    jsss style.js -o style.css   Compile JSSS to file
+
+Options:
+    -h, --help      Print this message
+    -o, --out       Output to single file
+    -e, --encoding  JSSS File encoding (default: utf8)
+    -v, --version   Print jsss-compiler version
 ```
 
 ## Example
@@ -52,7 +56,7 @@ contextual(tags.UL, tags.LI).fontSize = '10px';
 
 ### Compile
 ```
-$ jsss style.js style.css
+$ jsss style.js -o style.css
 ```
 
 ### style.css
