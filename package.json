@@ -23,6 +23,7 @@
     "css": "^2.1.0",
     "harmony-reflect": "1.0.1",
     "jsss-contextual": "^1.0.0",
+    "optimin": "^0.5.2",
     "underscore": "1.7.0",
     "update-notifier": "^0.2.1"
   }
