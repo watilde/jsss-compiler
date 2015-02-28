@@ -1,14 +1,14 @@
-H1 {
+h1 {
   color: red;
   font-size: 15px;
 }
 
-UL {
+ul {
   color: red;
   font-size: 10px;
 }
 
-LI {
+li {
   color: red;
   font-size: 10px;
 }
@@ -28,7 +28,7 @@ LI {
   font-size: 15px;
 }
 
-H1.bar {
+h1.bar {
   color: blue;
   font-size: 10px;
 }
