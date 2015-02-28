@@ -7,7 +7,7 @@
     "jsss": "bin/jsss.js"
   },
   "scripts": {
-    "test": "node --harmony ./test/test.js"
+    "test": "node --harmony_proxies ./test/test.js"
   },
   "repository": {
     "type": "git",
@@ -20,11 +20,11 @@
   },
   "homepage": "https://github.com/watilde/jsss-compiler",
   "dependencies": {
-    "css": "^2.1.0",
-    "harmony-reflect": "1.0.1",
-    "jsss-contextual": "^1.0.0",
+    "css": "^2.2.0",
+    "harmony-reflect": "1.1.1",
+    "jsss-contextual": "^1.0.1",
     "optimin": "^0.5.2",
-    "underscore": "1.7.0",
+    "underscore": "1.8.2",
     "update-notifier": "^0.3.0"
   }
 }
