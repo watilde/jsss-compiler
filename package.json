@@ -24,7 +24,7 @@
     "harmony-reflect": "1.1.1",
     "jsss-contextual": "^1.0.1",
     "optimin": "^0.5.2",
-    "underscore": "1.8.2",
-    "update-notifier": "^0.3.0"
+    "underscore": "1.8.3",
+    "update-notifier": "^0.3.1"
   }
 }
