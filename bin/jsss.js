@@ -1,2 +1,2 @@
-#!/usr/bin/env node --harmony_proxies
+#!/usr/bin/env node
 require(__dirname + '/../lib/cli')
